@@ -1,0 +1,125 @@
+html {
+	font-size: 10px;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	margin-bottom: 10rem;
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+h2 {
+	font-size: 3rem;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+.section-header {
+	margin-top: 5rem;
+	text-align: center;
+}
+
+/* navbar */
+
+.navbar {
+	width: 100%;
+	font-size: 1.6rem;
+	position: fixed;
+	top: 0;
+	background-color: rgb(50, 50, 52);
+}
+
+.navbar-ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	gap: 10vw;
+}
+
+.navbar-link {
+	color: white;
+	text-decoration: none;
+}
+
+.navbar-link:hover {
+	color: grey;
+	text-decoration: underline;
+	text-decoration-color: grey;
+}
+
+/* welcome section */
+.welcome-section {
+	height: 100vh;
+	background-color: aliceblue;
+}
+
+.welcome-name {
+	text-align: center;
+	letter-spacing: 0.5rem;
+	margin: auto;
+	padding-top: 40vh;
+}
+
+.social-media {
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.social-media a, .link {
+	color: black;
+	text-decoration: none;
+}
+
+.social-media a:hover, .link:hover {
+	color: grey;
+	text-decoration: underline;
+	text-decoration-color: grey;
+}
+
+.welcome-description {
+	text-align: center;
+	margin: 0 auto;
+	width: 400px;
+	font-size: 1.8rem;
+	font-weight: normal;
+}
+
+/* projects section */
+.projects {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.project-container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.project-tile {
+	margin: 8rem auto;
+}
+
+.project-img {
+	width: 100%;
+}
+
+.project-title {
+	text-align: center;
+}
+
+/* media queries */
+@media screen and (max-width: 650px) {
+	.projects {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
